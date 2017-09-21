@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container calcbody center-block">
+        <div class="row control-btns">
+            <ul>
+                <li class="maximize" onclick="location.reload();"><i class="fa fa-window-maximize maximize" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class="calc-view">
+            <div class="operations text-right">
+                0
+            </div>
+            <div class="result text-right">
+                0
+            </div>
+        </div>
+        <div class="calc-btns center-block">
+            <ul class="calc-btns-list center-block">
+                <li onclick="operation('ac')" class="calc-btn" id="cbac">AC</li>
+                <li onclick="operation('ce')" class="calc-btn" id="cbce">CE</li>
+                <li onclick="operation('/')" class="calc-btn" id="cbdiv">/</li>
+                <li onclick="operation('*')" class="calc-btn" id="cbtimes">*</li>
+                <li onclick="getNum('7')" class="calc-btn" id="cb7">7</li>
+                <li onclick="getNum('8')" class="calc-btn" id="cb8">8</li>
+                <li onclick="getNum('9')" class="calc-btn" id="cb9">9</li>
+                <li onclick="operation('-')" class="calc-btn" id="cbminus">-</li>
+                <li onclick="getNum('4')" class="calc-btn" id="cb4">4</li>
+                <li onclick="getNum('5')" class="calc-btn" id="cb5">5</li>
+                <li onclick="getNum('6')" class="calc-btn" id="cb6">6</li>
+                <li onclick="operation('+')" class="calc-btn" id="cbplus">+</li>
+                <li onclick="getNum('1')" class="calc-btn" id="cb1">1</li>
+                <li onclick="getNum('2')" class="calc-btn" id="cb2">2</li>
+                <li onclick="getNum('3')" class="calc-btn" id="cb3">3</li>
+                <li onclick="operation('equal')" class="calc-btn" id="cbequal">=</li>
+                <li class="calc-btn" id="cbempty"></li>
+                <li onclick="getNum('0')" class="calc-btn" id="cbzero">0</li>
+            </ul>
+        </div>
+
+        <div class="footer center-block text-center">Made by <a href="https://twitter.com/zeyadetman" target="_blank">@zeyadetman</a>, Design by <a href="https://dribbble.com/Willionaire" target="_blank">@Willionaire</a></div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="man.js"></script>
+</body>
+
+</html>
