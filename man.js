@@ -72,13 +72,13 @@ function getResult(str) {
         }
     }
     numbers.push(v1 * 1);
-    console.log(numbers, opers);
+    //console.log(numbers, opers);
     result = numbers[0];
     for (let j = 1; j < numbers.length; j++) {
         if (opers[j - 1] === "+") { result += numbers[j]; } else if (opers[j - 1] === "-") { result -= numbers[j]; } else if (opers[j - 1] === "*") { result *= numbers[j]; } else if (opers[j - 1] === "/") { result /= numbers[j]; }
     }
 
-    console.log(result);
+    //console.log(result);
     finish = true;
     return result;
 }
