@@ -1,7 +1,7 @@
 # Calculator
 Calculator
 
-[Live](http://zeyadetman.github.io/zeyadetman/Calculator/)
+[Live](http://zeyadetman.github.io/Calculator/)
 
 ## To contribute:
 1. [ ] add Trigonometry calculator.
